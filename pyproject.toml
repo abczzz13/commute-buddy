@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "commute-buddy"
+version = "0.1.0"
+description = ""
+authors = ["Guido Meijer <gtmeijer@gmail.com>, Thomas de Jong <thomas@tdejong.io>"]
+readme = "README.md"
+packages = [{include = "commute_buddy"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.2"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
